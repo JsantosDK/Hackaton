@@ -7,13 +7,6 @@
   height: 100%;
 }
 
-/* Set black background color, white text and some padding */
-footer {
-  background-color: #555;
-  color: white;
-  padding: 15px;
-}
-
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
   .sidenav {
@@ -35,19 +28,7 @@ footer {
     color: grey;
     font-size: 18px;
   }
-  
-  button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
+
   
   a {
     text-decoration: none;
@@ -61,5 +42,37 @@ footer {
 
   .profile-img {
       border-radius: 10%;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+
+  .form-inline {
+    float: right;
+  }
+
+
+  .login-form {
+    margin-top: 7px;
+  }
+
+  .btn-danger {
+    margin-right: 20px;
+  }
+
+
+  .bedroom-pic {
+    width: 50%;
+    height: 50%;
   }
   
