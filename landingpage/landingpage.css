@@ -14,3 +14,28 @@
     .form-inline {
       float: right;
     }
+
+
+    .login-form {
+      margin-top: 7px;
+    }
+
+    .btn-danger {
+      margin-right: 20px;
+    }
+
+
+    .card {
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #f6f6f4;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+      margin-bottom: 50px;
+  }
