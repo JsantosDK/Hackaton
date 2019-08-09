@@ -73,4 +73,14 @@
   .review-text {
     font-size: 16px;
   }
+
+  .checked {
+    color: orange; }
+
+  .navbar-brand {
+
+    width: 35%;
+    height: 35%;
+  }
+    
   
