@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cleanify</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script modelType="application/javascript" src="profile.js"></script>
+    <link rel="stylesheet" type="text/css" href="profile.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <img
+            class="navbar-brand"
+            src="/src/main/resources/landing/cleanify-logo.png"
+          />
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Our Professionals</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Info</a></li>
+          </ul>
+
+          <div class="login-form">
+            <form class="form-inline my-2 my-lg-0">
+              <button type="button" class="btn btn-danger">Register</button>
+              <input
+                class="form-control mr-sm-2"
+                type="text"
+                placeholder="Email"
+              />
+              <div class="form-group mx-sm-1">
+                <label for="inputPassword2" class="sr-only">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword2"
+                  placeholder="Password"
+                />
+              </div>
+              <button type="button" class="btn btn-success">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row content">
+        <div class="col-sm-3 sidenav">
+          <div class="card">
+            <img
+              class="profile-img"
+              src="/src/main/resources/profile/Carol.JPG"
+              style="width:100%"
+            />
+            <h3>Carolina Santos</h3>
+            <br />
+            <h4>Description</h4>
+            <p>
+              Expertise in lots of shit.<br />
+              Maid with excellent cleanliness standards to attend all areas of
+              our facilities.<br />
+              Deliver excellent customer service.
+            </p>
+            <div class="panel-footer">
+              Rating:
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <p></p>
+            <br />
+            <h4>Location & Contact</h4>
+            <p>Lisbon, Portugal</p>
+            <p>+351 92837465</p>
+            <br />
+          </div>
+        </div>
+
+        <div class="col-sm-9">
+          <h4><small>REVIEWS</small></h4>
+          <hr />
+          <h2>Amazing Service</h2>
+          <h5>
+            <span class="glyphicon glyphicon-time"></span> Posted by John McRoe,
+            Sep 27, 2018.
+          </h5>
+          <h5>
+            <span class="label label-success">#cleaning</span>
+            <span class="label label-primary">#house</span>
+          </h5>
+          <br />
+          <p class="review-text">
+            Carla came for a one-time cleaning. We gave her a few hours to
+            herself and came back to the house looking spotless. Her attention
+            to detail is amazing - bathtub scrubbed, refrigerator shelves clean,
+            shelves neatly arranged (but nothing out of place), dust removed all
+            around.
+          </p>
+          <img
+            class="center bathroom-pic"
+            src="/src/main/resources/profile/before&after/bathroom.png"
+            alt="bathroom"
+          />
+
+          <hr />
+          <h2>Good service, poor management</h2>
+          <h5>
+            <span class="glyphicon glyphicon-time"></span> Posted by Ellen
+            Smith, Mar 12, 2019.
+          </h5>
+          <h5><span class="label label-warning">#bedroom</span></h5>
+          <br />
+          <p class="review-text">
+            The cleaning itself was very, very thorough. We hired her for
+            move-out cleaning of our one-bedroom apartment in Lisbon and she did
+            a great job. I wish we hired her when we moved in, as the place is
+            pretty old. However, scheduling a time was quite stressful. Texting
+            the available number is probably your best bet over calling or
+            messaging via WhatsApp. The management kept rescheduling on me. When
+            it rolled around to our set time and day, I asked if she was almost
+            at my place, and she said there was an emergency and that I would
+            need to reschedule. I understand that things come up for people, but
+            she should've notified me proactively instead of me asking 15
+            minutes past my set appointment time. Also, when I scheduled my
+            appointment, I sent them pictures of my place to get a quote, and
+            they said it'd be one price, and the two ladies ended up charging me
+            another price that was higher, weird considering I already
+            pre-cleaned a bit. Overall, she did a really great job at cleaning
+            itself. But if you're on a strict timeline (like moveout) or on a
+            strict budget, probably not worth it.
+          </p>
+          <img
+            class="center bedroom-pic"
+            src="/src/main/resources/profile/before&after/bedroom.png"
+            alt="bedroom picture"
+          />
+          <hr />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
