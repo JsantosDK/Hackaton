@@ -44,12 +44,7 @@ body {
     width: 50%;
     height: 50%;
   }
-  .sidenav {
-    padding-top: 20px;
-    background-color: #f1f1f1;
-    height: 100%;
-    margin-top: -650px;
-  }
+
 
   .nav {
     margin-top: 20px;
