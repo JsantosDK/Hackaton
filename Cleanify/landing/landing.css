@@ -36,11 +36,6 @@ body {
   margin-bottom: 50px;
 }
 
-.sidenav {
-  padding-top: 20px;
-  background-color: #f1f1f1;
-  height: 100%;
-}
 
 .checked {
   color: orange;
@@ -72,5 +67,5 @@ p.header-text {
   padding-top: 20px;
   background-color: #f1f1f1;
   height: 100%;
-  margin-top: -650px;
+  margin-top: -670px;
 }
