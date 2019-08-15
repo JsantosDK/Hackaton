@@ -1,3 +1,23 @@
+var arr = [{firstName :'Mariana', lastName:'Vidigal', email:'ac@academiadecodigo.com', password: '123', address: 'Rua da Rosa', city: 'Macau',zipCode:'0000'},
+{firstName :"Mahmudul", lastName:'Hasan', email:'ac@academiadecodigo.com', password: 'password', address: 'Rua da Rosa', city: 'Oslo',zipCode:'1111'} ]
+
+$(document).ready(function () {
+
+$('#signup').click(function () {
+    addNewCustomer();
+});
+
+    Object.keys(arr).forEach(element => {
+        console.log(arr[element]);
+    })
+
+    
+});
+
+
+function getCustomer(){}
+
+/*
 function register()                                    
 { 
     var firstName = document.forms["RegForm"]["First Name"];
@@ -73,12 +93,14 @@ function register()
         return false; 
     } 
    
-    /*if (choice.selectedIndex < 1)                  
+    if (choice.selectedIndex < 1)                  
     { 
         alert("Please enter your course."); 
         choice.focus(); 
         return false; 
-    }*/
+    }
    
     return true; 
+    
 }
+*/
